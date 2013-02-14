@@ -1,6 +1,7 @@
 body.load{
 	background:url(../img/bg.png) repeat-y 0 0 transparent;
 	background-size:100% auto;
+	font-family: '微软雅黑';
 }
 
 #load{
@@ -155,7 +156,7 @@ body.load{
 	left:0;
 }
 #first{
-	height:1200px;
+	height:1800px;
 	background-color:#66CAC9;
 }
 #catdiag{
@@ -196,25 +197,138 @@ body.load{
 	top:120px;
 
 	width:100%;
-	height:600px;
+	height:1200px;
 
-background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,234,234,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
-	
+	background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,234,234,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+
 
 	-moz-border-radius:20px;
 	-webkit-border-radius:20px;
 	border-radius:20px;
 }
-#second{
-	background-color:blue;
+
+#message1,#message2{
+	font-family: '微软雅黑';
+	color:#64bac9;
+	font-weight:bold;
+	font-size:24px;
+	text-align:center;
+	margin:10px auto;
 }
-#third{
-	background-color:black;
+
+
+.page{
+	width:200px;
+	height:200px;
+	position:absolute;
+
+	background:#78a1d9;
+	-moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+	-webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+	box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+	
+}
+
+.page:after {
+    width: 100px;
+    height: 30px;
+    content: " ";
+    margin-left: -50px;
+    border: 1px solid rgba(200, 200, 200, .8);
+    background: rgba(254, 254, 254, .6);
+
+    -moz-box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+
+    -moz-transform: rotate(-5deg); 
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+
+    position: absolute;
+    left: 50%;
+    top: -15px;
+}
+
+.page h2{
+	text-align:center;
+	font-size:20px;
+	color:white;
+	font-family: '微软雅黑';
+}
+.page img{
+	display:block;
+	margin: 0 auto;
+	width:120px;
+	height:120px;
+}
+#tip1{
+	-o-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+	transform: rotate(4deg);
+
+	left:35%;
+	top:140px;
+}
+
+
+#tip2{
+	-o-transform: rotate(-6deg);
+	-webkit-transform: rotate(-6deg);
+	-moz-transform: rotate(-6deg);
+	transform: rotate(-6deg);
+
+	left:70%;
+	top:400px;
+}
+
+
+#tip3{
+	left:10%;
+	top:500px;
+}
+
+#tip4{
+	-o-transform: rotate(3deg);
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	transform: rotate(3deg);
+
+	left:50%;
+	top:650px;
+}
+#tip5{
+	-o-transform: rotate(-4deg);
+	-webkit-transform: rotate(-4deg);
+	-moz-transform: rotate(-4deg);
+	transform: rotate(-4deg);
+
+	left:20%;
+	top:800px;
+}
+#summary{
+	background:url(../img/summary.jpg) no-repeat;
+	width:300px;
+	height:300px;
+	position:absolute;
+	bottom:20px;
+	right:50px;
+}
+#second{
+	height:900px;
+	background-color:#F90F49;
+}
+
+#second img{
+	display:block;
+	margin:20px auto;
 }
 
 
