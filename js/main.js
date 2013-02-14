@@ -44,7 +44,7 @@ scrollorama.animate('#toname',{ delay: 200, duration:  100, property:'left', sta
 scrollorama.animate('#catren',{ delay: 300, duration:  200, property:'opacity', start:0 ,end:1});
 scrollorama.animate('#diag1',{ delay: 550, duration:  100, property:'opacity', start:0 ,end:1});
 scrollorama.animate('#diag2',{ delay: 600, duration:  100, property:'opacity', start:0 ,end:1});
-scrollorama.animate('#diag3',{ delay: 700, duration:  600, property:'height', start:0 ,end:1200});
+scrollorama.animate('#diag3',{ delay: 700, duration:  600, property:'height', start:0 ,end:1600});
 scrollorama.animate('#message1',{ delay: 710, duration:  150, property:'opacity', start:0 ,end:1});
 scrollorama.animate('#message1',{ delay: 710, duration:  150, property:'letter-spacing', start:100 ,end:4});
 
@@ -81,7 +81,21 @@ scrollorama.animate('#tip5',{ delay: 1450, duration:  150, property:'height', st
 scrollorama.animate('#tip5',{ delay: 1450, duration:  150, property:'top', start:330 ,end:800});
 scrollorama.animate('#tip5',{ delay: 1450, duration:  150, property:'margin-left', start:-300 ,end:0});
 
-scrollorama.animate('#summary',{ delay: 1600, duration:  100, property:'opacity', start:0 ,end:1});
+
+scrollorama.animate('#tip6',{ delay: 1600, duration:  150, property:'opacity', start:0 ,end:1});
+scrollorama.animate('#tip6',{ delay: 1600, duration:  150, property:'width', start:800 ,end:200});
+scrollorama.animate('#tip6',{ delay: 1600, duration:  150, property:'height', start:800 ,end:200});
+scrollorama.animate('#tip6',{ delay: 1600, duration:  150, property:'top', start:480 ,end:950});
+scrollorama.animate('#tip6',{ delay: 1600, duration:  150, property:'margin-left', start:-300 ,end:0});
+
+
+scrollorama.animate('#tip7',{ delay: 1750, duration:  150, property:'opacity', start:0 ,end:1});
+scrollorama.animate('#tip7',{ delay: 1750, duration:  150, property:'width', start:800 ,end:200});
+scrollorama.animate('#tip7',{ delay: 1750, duration:  150, property:'height', start:800 ,end:200});
+scrollorama.animate('#tip7',{ delay: 1750, duration:  150, property:'top', start:630 ,end:1100});
+scrollorama.animate('#tip7',{ delay: 1750, duration:  150, property:'margin-left', start:-300 ,end:0});
+
+scrollorama.animate('#summary',{ delay: 2000, duration:  100, property:'opacity', start:0 ,end:1});
 
 
 }

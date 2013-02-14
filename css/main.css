@@ -156,7 +156,7 @@ body.load{
 	left:0;
 }
 #first{
-	height:1800px;
+	height:2200px;
 	background-color:#66CAC9;
 }
 #catdiag{
@@ -312,6 +312,26 @@ body.load{
 
 	left:20%;
 	top:800px;
+}
+
+#tip6{
+	-o-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+	transform: rotate(4deg);
+
+	left:60%;
+	top:950px;
+}
+
+#tip7{
+	-o-transform: rotate(-6deg);
+	-webkit-transform: rotate(-6deg);
+	-moz-transform: rotate(-6deg);
+	transform: rotate(-6deg);
+
+	left:30%;
+	top:1100px;
 }
 #summary{
 	background:url(../img/summary.jpg) no-repeat;
